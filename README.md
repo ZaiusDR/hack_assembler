@@ -4,4 +4,28 @@ Final project for the Assembler to compile "Hack" assembly language, used in the
 
 ## Installing
 
-To be continued...
+`pip install git+https://github.com/ZaiusDR/hack_assembler`
+
+## Usage
+
+After installation, a `hack_assembler` command is available:
+
+`hack_assembler File.asm`
+
+This will produce a `.hack` file which can be used in the CPU Emulator provided in the course.
+
+## Running tests
+
+### Unit testing
+
+Tests run with pytest. You can install this library with:
+
+`pip install pytest`
+
+In order to run unit tests
+
+`git clone https://github.com/ZaiusDR/hack_assembler.git`
+
+`cd hack_assembler`
+
+`pytest`
