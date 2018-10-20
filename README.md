@@ -22,10 +22,12 @@ Tests run with pytest. You can install this library with:
 
 `pip install pytest`
 
-In order to run unit tests
+In order to run unit tests:
 
-`git clone https://github.com/ZaiusDR/hack_assembler.git`
+- Clone repository: `git clone https://github.com/ZaiusDR/hack_assembler.git`
 
-`cd hack_assembler`
+- Navigate to the repository folder: `cd hack_assembler`
 
-`pytest`
+- Install in development mode: `pip install -e .`
+
+- Run tests: `pytest`
